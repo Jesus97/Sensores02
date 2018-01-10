@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.jesus.sensores02.Sensores2">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SENSOR DE ACELERACION"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#000000"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="EJE X"
+        android:textStyle="italic"
+        android:textSize="20dp"
+        android:textColor="#0800ff"/>
+    <TextView
+        android:id="@+id/aceleracionX"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Aceleracion_X"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:textSize="18dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#000000"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="EJE Y"
+        android:textStyle="italic"
+        android:textSize="20dp"
+        android:textColor="#0800ff"/>
+    <TextView
+        android:id="@+id/aceleracionY"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Aceleracion_Y"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:textSize="18dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#000000"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="EJE Z"
+        android:textStyle="italic"
+        android:textSize="20dp"
+        android:textColor="#0800ff"/>
+    <TextView
+        android:id="@+id/aceleracionZ"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Aceleracion_Z"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:textSize="18dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#000000"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="MODULO DE ACELERACION"
+        android:textStyle="italic"
+        android:textSize="20dp"
+        android:textColor="#0800ff"/>
+    <TextView
+        android:id="@+id/aceleracion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Aceleracion"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:textSize="18dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#000000"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ACELERACION MAXIMA"
+        android:textStyle="italic"
+        android:textSize="20dp"
+        android:textColor="#0800ff"/>
+    <TextView
+        android:id="@+id/aceleracionMaxima"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Aceleracion Maxima"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:textSize="18dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#000000"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="GRAVEDAD ESTANDAR"
+        android:textStyle="italic"
+        android:textSize="20dp"
+        android:textColor="#0800ff"/>
+    <TextView
+        android:id="@+id/gravedad"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Gravedad"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:textSize="18dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#000000"/>
+
+</LinearLayout>
